@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style.css">
-    <title>Home</title>
+    <title>Courses</title>
 </head>
 
 <body class="bg-light pt-5">
@@ -67,8 +67,8 @@
     </nav>
     <!-- NAVBAR -->
 
-    <!-- BANNER -->
-    <header class="main-header py-5 border-bottom">
+    <!-- COURSES BANNER -->
+    <header class="courses-header py-5 border-bottom">
         <div class="container">
             <div class="row align-items-center gx-md-5">
                 <div class="col-md-6">
@@ -81,10 +81,17 @@
                             Learn new skills with our online courses. Get expert guidance and certified course material.
                             Improve your career prospects with our range of Premium and Free Courses.
                         </h2>
-                        <a href="#" class="btn btn-sm btn-success mt-2 mb-3">
-                            <i class="bi bi-person-check-fill me-1"></i>
-                            Sign up to get Started
-                        </a>
+                        <div class="col-md-10 my-3 courses-search-form">
+                            <form class="d-flex" role="search">
+                                <div class="input-group">
+                                    <input type="search" class="form-control form-control-sm"
+                                        placeholder="Search for..">
+                                    <button type="submit" class="btn btn-sm btn-success" aria-label="Search">
+                                        <i class="bi bi-search"></i>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -96,79 +103,11 @@
             </div>
         </div>
     </header>
-    <!-- BANNER -->
+    <!-- COURSES BANNER -->
 
-    <!-- SIDE FEATURES -->
-    <section class="site-features py-4 border-bottom">
+    <!-- COURSES LIST -->
+    <section class="courses-list py-5">
         <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="feature-item d-flex align-items-center bg-white p-3 border rounded mb-md-0 mb-3">
-                        <div class="flex-shrink-0">
-                            <img class="img-fluid me-2" src="./assets/clock.webp" alt="Clock">
-                        </div>
-                        <div class="flex-grow-1ms-3">
-                            <h3 class="fs-5">High-Quality Lessons</h3>
-                            <p class="small text-secondary">
-                                Every Video Lesson is made within 2 to 3 minutes, concentrating on the
-                                point of the topic, making every course easier.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="feature-item d-flex align-items-center bg-white p-3 border rounded mb-md-0 mb-3">
-                        <div class="flex-shrink-0">
-                            <img class="img-fluid me-2" src="./assets/responsive.webp" alt="Computer">
-                        </div>
-                        <div class="flex-grow-1ms-3">
-                            <h3 class="fs-5">Built for Success</h3>
-                            <p class="small text-secondary">
-                                Our courses are designed to get your career started with in-depth lessons and a focus on
-                                student satisfaction.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="feature-item d-flex align-items-center bg-white p-3 border rounded mb-md-0 mb-3">
-                        <div class="flex-shrink-0">
-                            <img class="img-fluid me-2" src="./assets/tick.webp" alt="Tick">
-                        </div>
-                        <div class="flex-grow-1ms-3">
-                            <h3 class="fs-5">Anywhere, Anytime Access</h3>
-                            <p class="small text-secondary">
-                                By signing up for our courses, you have unlimited access to course contents anytime,
-                                anywhere with exercise files and practical project files.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- SIDE FEATURES -->
-
-    <!-- COURSE LOOP -->
-    <section class="course-loop py-4 border-bottom">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-5">
-                    <div class="course-loop-heading text-md-center mb-4">
-                        <h4 class="fs-5">
-                            Learn How to Code & Design Professional Websites
-                        </h4>
-                        <p class="small text-secondary">
-                            If you are just getting started in the web design development field and looking at how to
-                            code and build websites, these courses are best suited for you.
-                        </p>
-                        <a href="#" class="btn btn-sm btn-success">
-                            <i class="bi bi-mortarboard-fill"></i>
-                            View all Courses
-                        </a>
-                    </div>
-                </div>
-            </div>
             <div class="row">
                 <div class="col-md-3">
                     <div class="list-group small mb-3">
@@ -355,39 +294,7 @@
             </div>
         </div>
     </section>
-    <!-- COURSE LOOP -->
-
-    <!-- HOME PAGE CONTENT -->
-    <section class="home-page-content py-4 mb-3">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-6">
-                    <div class="home-content-holder pe-md-3 ">
-                        <h2 class="fs5">Explore Our Free Courses</h2>
-                        <p class="small text-secondary">
-                            Gain new skills with our free courses. Learn at your own pace
-                            and advance your career with no cost involved. Start learning today!
-                        </p>
-                        <h2 class="fs5">Explore Our Premium Courses</h2>
-                        <p class="small text-secondary">
-                            Accelerate your learning with our premium courses. Get access to exclusive content and
-                            expert guidance to take your skills to the next level. Enroll now!
-                        </p>
-                        <a href="#" class="btn btn-sm btn-success d-inline-flex align-items-center mb-md-0 mb-3">
-                            <i class="bi bi-info-circle-fill me-2"></i>
-                            Sign up to get more info
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="home-content-image">
-                        <img class="rounded img-fluid full-width shadow-sm" src="./assets/laptop.jpeg" alt="Computer">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- HOME PAGE CONTENT -->
+    <!-- COURSES LIST -->
 
     <!-- SUBSCRIBE -->
     <section class="subscribe py-5">
